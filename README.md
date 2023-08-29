@@ -6,5 +6,6 @@
 
 ## Customer
 **Description**\
-IIT students looking for information on professors and courses.\
+- IIT students looking for information on professors and courses.\
 **Other customers or stakeholders**
+- IIT Faculty,
