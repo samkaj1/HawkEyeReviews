@@ -5,6 +5,6 @@
 - IIT students are easily able to search for classes to find ratings and reviews about individual classes/professors so they can make more informed decisions when creating schedules.
 
 ## Customer
-**Description**
-IIT students looking for information on professors and courses.
+**Description**\
+IIT students looking for information on professors and courses.\
 **Other customers or stakeholders**
