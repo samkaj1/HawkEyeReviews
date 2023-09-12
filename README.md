@@ -42,7 +42,7 @@ Please create a table for the details below
 | --- | --- | --- |
 | Sameer Kajani | Lincolnwood, Illinois | 0 |
 | Nelida Schalich-Ayllon | Chicago, IL | 0 |
-| --- | --- | --- |
+| Shayan Baig | Chicago, IL | 0 |
 
 ## Team Working Agreement (All team members)
 ### What do we want to accomplish/learn together?
