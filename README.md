@@ -7,7 +7,7 @@
 ## Customer
 ### Description
 - IIT students looking for information on professors and courses.
-### mOther customers or stakeholders
+### Other customers or stakeholders
 - IIT Faculty,
 
 ## Application type (web app, mobile, website, native client, …)
