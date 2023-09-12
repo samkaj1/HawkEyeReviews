@@ -39,7 +39,7 @@
 Please create a table for the details below
 
 | Name |	Location	| Time zone offset from Chicago (Chicago is 0 offset)|
-| Ronan Valarese | Boston, MA | +1 |
+| Ronan Valarese | Boston, MA | 1 |
 | Sameer Kajani | Chicago, IL | 0 |
 | Nelida Schalich-Ayllon | Chicago, IL | 0 |
 | Shayan Baig | Chicago, IL | 0 |
