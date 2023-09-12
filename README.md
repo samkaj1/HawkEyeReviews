@@ -27,10 +27,16 @@ Web App
 - Web Browser
 #### Server Tech
 
-## Top Application Capabilities (name at least 5)
+## Top Application Capabilities
+- IIT students can write detailed descriptions of what to expect in courses, from past students
+    - First-hand experience vs information from a professor
+- IIT students and professors can search for courses to find reviews and experiences from previous students
+- IIT students can leave a rating out of 5 stars for the courses in their reviews
+- Students can login with their IIT emails to write reviews
+- Students can view professor’s detailed pages with courses they have taught and linked reviews
 
-## Top Two to Three Scenarios
-[see sample scenarios](https://github.com/mschray/IPro497Sample/blob/main/Examples/ScenarioExample.md)
+
+## Scenarios
 
 ### Scenario #1
 The spring semester has recently ended, and Bob is about to graduate from IIT. He has had such a great experience with a particular course that he would like to tell people about it. Additionally, he would like to provide feedback about classes he has not enjoyed so that he can send a word of warning to incoming students that are considering those courses which can also serve as feedback to the professors who taught those courses. He feels that the wisdom he has gained over the years he spent at IIT can be of help to students starting down the same road he started four years ago. He has seen websites such as RateMyProfessor and receives an email notifying him of a new website which can be used to publicly rate the courses themselves. It is everything he was yearning for.
@@ -57,27 +63,28 @@ Please create a table for the details below
 ### Tools
 #### Examples (edit and add your own)
 - We will use Github for version control. Team-members will push their finished code to a branch to ensure the main branch remains bug-free.
-- If we need to meet outside of class we have found a mutually agreeable time at:
-- If we need to meet outside of class we will use the following tool/tech for meetings:
-- When we are not meeting together we will use the following tool/tech for communications:
+- If we need to meet outside of class we have found a mutually agreeable time at: talk on discord
+- If we need to meet outside of class we will use the following tool/tech for meetings: Discord
+- When we are not meeting together we will use the following tool/tech for communications: Discord
 
 ### Requested Approach/Behavior
 ##### Examples (edit and add your own)
-- We will communicate respectfully in a professional manner. Discussions only. No arguing/name calling of any kind. Respect the ideas of each team member.
+- We will communicate respectfully in a professional manner. Discussions only. Respect the ideas of each team member.
 - We will divide work fairly. Each member will be responsible for the work they choose to be assigned to (based on their skillset). Each member should be assigned to one or more stories on the Kanban board.
+- Be open and receptive to questions, also ask questions if you have been stuck or do not understand something.
 
 ### Unacceptable behavior
-...
+- No arguing/name calling of any kind.
 
 ### How will we productively solve disagreement
-...
+- Discuss between the group to find the best decision.
 
 ## Sprint Schedule
 
 | Week | Sprint Leader |
 | --------  | ------------------- |
-| 1 - Problem Framing                                 | Team member #N              |
-| 2 - Problem Framing                                 | Team member #N             |
+| 1 - Problem Framing                                 | Nelida           |
+| 2 - Problem Framing                                 | Nelida             |
 | 3 - Problem Framing                                 | Team member #N+1|
 | 4 - Problem Framing                                 | Team member #N+1|
 | 5 - Think, build, test, and demo for midterm        | Team member #N+2 |
