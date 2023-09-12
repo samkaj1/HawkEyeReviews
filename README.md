@@ -83,7 +83,7 @@ Please create a table for the details below
 | 5 - Think, build, test, and demo for midterm        | Team member #N+2 |
 | 6 - Think, build, test, and demo for midterm        | Team member #N+2 |
 | 7 - Think, build, test, and demo for midterm        | Team member #N+3|
-| 8 - Think, build, test, and demo for midterm        | Team member #N+3|
+| 8 - Think, build, test, and demo for midterm        | Fall Break |
 | 9 - Think, build, test, and demo for final          | Team member ...             |
 | 10 - Think, build, test, and demo for final	      |  Team member ...      |
 | 11 - Think, build, test, and demo for final         | Team member ...         |
