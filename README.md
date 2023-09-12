@@ -31,7 +31,7 @@ Please create a table for the details below
 
 | Name |	Location	| Time zone offset from Chicago (Chicago is 0 offset)|
 | --- | --- | --- |
-| --- | --- | --- |
+| Sameer Kajani | Lincolnwood, Illinois | 0 |
 | --- | --- | --- |
 | --- | --- | --- |
 
