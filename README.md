@@ -24,6 +24,7 @@
 
 
 #### Client Tech
+- Web Browser
 #### Server Tech
 
 ## Top Application Capabilities (name at least 5)
