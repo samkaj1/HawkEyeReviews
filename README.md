@@ -87,8 +87,8 @@ Please create a table for the details below
 | 2 - Problem Framing                                 | Nelida             |
 | 3 - Problem Framing                                 | Team member #N+1|
 | 4 - Problem Framing                                 | Team member #N+1|
-| 5 - Think, build, test, and demo for midterm        | Team member #N+2 |
-| 6 - Think, build, test, and demo for midterm        | Team member #N+2 |
+| 5 - Think, build, test, and demo for midterm        | Ronan |
+| 6 - Think, build, test, and demo for midterm        | Ronan |
 | 7 - Think, build, test, and demo for midterm        | Team member #N+3|
 | 8 - Think, build, test, and demo for midterm        | Fall Break |
 | 9 - Think, build, test, and demo for final          | Team member ...             |
