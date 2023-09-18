@@ -16,7 +16,7 @@ Web App
 
 | **Member** | **Languages** | **FE frameworks** | **BE frameworks** | **Databases** |
 | --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
+| Ronan | HTML, CSS, JavaScript | --- | --- | --- |
 | --- | --- | --- | --- | --- |
 | --- | --- | --- | --- | --- |
 | --- | --- | --- | --- | --- |
@@ -94,7 +94,7 @@ Please create a table for the details below
 | 9 - Think, build, test, and demo for final          | Team member ...             |
 | 10 - Think, build, test, and demo for final	      |  Team member ...      |
 | 11 - Think, build, test, and demo for final         | Team member ...         |
-| 12 - Think, build, test, and demo for final         | Team member ...          |
-| 13 - Think, build, test, and demo for final         | Team member ...          |
+| 12 - Think, build, test, and demo for final         | Ronan |
+| 13 - Think, build, test, and demo for final         | Ronan |
 | 14 - Presentation dry run                           | Team member ...   |
 | 15 - Presentation                                   | Team member ... |
