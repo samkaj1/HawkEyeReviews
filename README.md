@@ -20,7 +20,7 @@ Web App
 | Nicholas | JavaScript, HTML, CSS, Python, Java, C | --- | --- | --- |
 | Nelida | Python, Java, (Javascript and HTML at a basic level) | N/A | N/A | MySQL |
 | Shayan | Python, Java, Javascript, HTML, CSS, Ocaml  | --- | --- | MySQL, Firebase |
-| --- | --- | --- | --- | --- |
+| Sameer | Python, Java, HTML (Beginner), Javascript (Beginner), C, Racket (Beginner) | --- | --- | MySQL |
 
 
 #### Client Tech
@@ -97,5 +97,5 @@ Please create a table for the details below
 | 11 - Think, build, test, and demo for final         | Team member ...         |
 | 12 - Think, build, test, and demo for final         | Ronan |
 | 13 - Think, build, test, and demo for final         | Ronan |
-| 14 - Presentation dry run                           | Team member ...   |
-| 15 - Presentation                                   | Team member ... |
+| 14 - Presentation dry run                           | Sameer |
+| 15 - Presentation                                   | Sameer |
