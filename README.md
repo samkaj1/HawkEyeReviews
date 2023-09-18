@@ -18,7 +18,7 @@ Web App
 | --- | --- | --- | --- | --- |
 | Ronan | HTML, CSS, JavaScript | --- | --- | --- |
 | Nicholas | JavaScript, HTML, CSS, Python, Java, C | --- | --- | --- |
-| --- | --- | --- | --- | --- |
+| Nelida | Python, Java, (Javascript and HTML at a basic level) | N/A | N/A | mysql |
 | --- | --- | --- | --- | --- |
 | --- | --- | --- | --- | --- |
 
