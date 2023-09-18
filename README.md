@@ -86,8 +86,8 @@ Please create a table for the details below
 | --------  | ------------------- |
 | 1 - Problem Framing                                 | Nelida           |
 | 2 - Problem Framing                                 | Nelida             |
-| 3 - Problem Framing                                 | Team member #N+1|
-| 4 - Problem Framing                                 | Team member #N+1|
+| 3 - Problem Framing                                 | Shayan |
+| 4 - Problem Framing                                 | Shayan |
 | 5 - Think, build, test, and demo for midterm        | Ronan |
 | 6 - Think, build, test, and demo for midterm        | Ronan |
 | 7 - Think, build, test, and demo for midterm        | Nicholas |
