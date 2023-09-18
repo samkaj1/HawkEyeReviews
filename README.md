@@ -93,8 +93,8 @@ Please create a table for the details below
 | 7 - Think, build, test, and demo for midterm        | Nicholas |
 | 8 - Think, build, test, and demo for midterm        | Fall Break |
 | 9 - Think, build, test, and demo for final          | Nicholas |
-| 10 - Think, build, test, and demo for final	      |  Team member ...      |
-| 11 - Think, build, test, and demo for final         | Team member ...         |
+| 10 - Think, build, test, and demo for final	      | Nelida  |
+| 11 - Think, build, test, and demo for final         | Nelida  |
 | 12 - Think, build, test, and demo for final         | Ronan |
 | 13 - Think, build, test, and demo for final         | Ronan |
 | 14 - Presentation dry run                           | Sameer |
