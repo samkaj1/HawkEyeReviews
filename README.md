@@ -17,7 +17,7 @@ Web App
 | **Member** | **Languages** | **FE frameworks** | **BE frameworks** | **Databases** |
 | --- | --- | --- | --- | --- |
 | Ronan | HTML, CSS, JavaScript | --- | --- | --- |
-| Nicholas | JavaScript, HTML, CSS | --- | --- | --- |
+| Nicholas | JavaScript, HTML, CSS, Python, Java, C | --- | --- | --- |
 | --- | --- | --- | --- | --- |
 | --- | --- | --- | --- | --- |
 | --- | --- | --- | --- | --- |
@@ -89,9 +89,9 @@ Please create a table for the details below
 | 4 - Problem Framing                                 | Team member #N+1|
 | 5 - Think, build, test, and demo for midterm        | Ronan |
 | 6 - Think, build, test, and demo for midterm        | Ronan |
-| 7 - Think, build, test, and demo for midterm        | Team member #N+3|
+| 7 - Think, build, test, and demo for midterm        | Nicholas |
 | 8 - Think, build, test, and demo for midterm        | Fall Break |
-| 9 - Think, build, test, and demo for final          | Team member ...             |
+| 9 - Think, build, test, and demo for final          | Nicholas |
 | 10 - Think, build, test, and demo for final	      |  Team member ...      |
 | 11 - Think, build, test, and demo for final         | Team member ...         |
 | 12 - Think, build, test, and demo for final         | Ronan |
