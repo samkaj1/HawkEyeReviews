@@ -26,7 +26,7 @@ Web App
 #### Client Tech
 - Web Browser
 #### Server Tech
-= Vercel
+- Vercel
 
 ## Top Application Capabilities
 - IIT students can write detailed descriptions of what to expect in courses, from past students
