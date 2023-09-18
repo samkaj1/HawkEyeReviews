@@ -17,7 +17,7 @@ Web App
 | **Member** | **Languages** | **FE frameworks** | **BE frameworks** | **Databases** |
 | --- | --- | --- | --- | --- |
 | Ronan | HTML, CSS, JavaScript | --- | --- | --- |
-| --- | --- | --- | --- | --- |
+| Nicholas | JavaScript, HTML, CSS | --- | --- | --- |
 | --- | --- | --- | --- | --- |
 | --- | --- | --- | --- | --- |
 | --- | --- | --- | --- | --- |
