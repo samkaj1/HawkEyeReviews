@@ -98,3 +98,4 @@ Please create a table for the details below
 | 13 - Think, build, test, and demo for final         | Ronan |
 | 14 - Presentation dry run                           | Team member ...   |
 | 15 - Presentation                                   | Team member ... |
+.
