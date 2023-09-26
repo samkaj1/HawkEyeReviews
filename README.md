@@ -1,4 +1,4 @@
-# ProfessorCourseDatabase
+# HawkEyeReviews
 
 ## Problem statement
 - IIT students are easily able to search for classes to find ratings and reviews about individual classes/professors so they can make more informed decisions when creating schedules.
@@ -17,15 +17,16 @@ Web App
 | **Member** | **Languages** | **FE frameworks** | **BE frameworks** | **Databases** |
 | --- | --- | --- | --- | --- |
 | Ronan | HTML, CSS, JavaScript | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
+| Nicholas | JavaScript, HTML, CSS, Python, Java, C | --- | --- | --- |
+| Nelida | Python, Java, (Javascript and HTML at a basic level) | N/A | N/A | MySQL |
+| Shayan | Python, Java, Javascript, HTML, CSS, Ocaml  | React.JS | --- | MySQL, Firebase |
+| Sameer | Python, Java, HTML (Beginner), Javascript (Beginner), C, Racket (Beginner) | --- | --- | MySQL |
 
 
 #### Client Tech
 - Web Browser
 #### Server Tech
+- Vercel
 
 ## Top Application Capabilities
 - IIT students can write detailed descriptions of what to expect in courses, from past students
@@ -43,7 +44,7 @@ The spring semester has recently ended, and Bob is about to graduate from IIT. H
 ### Scenario #2
 Billy Jr is an incoming freshman to IIT, he’s already ahead a good amount of credits which he’s really excited about! The only thing is, he feels a tad bit intimidated about being thrown into higher level courses at IIT since he has already fulfilled their prerequisites in high school. He’s curious about how difficult they might be, and what past students thought of the course. On top of worrying about course difficulty, he has no idea which professors to take specific classes with and which to avoid, since he’s new to the school.
 ### Scenario #3
-After the Fall semester, Professor Joe Smith sits down on his computer and views the scarce official course evaluations submitted by students at the end of the semester to see what he can do better to help students understand the material. He sees that the generic questions and ratings provided by IIT do not really give him an understanding of the critical feedback that would help him become a better professor at IIT. Professor Smith views the course and professor database, IITExposed, and sees that the student reviews provide honest feedback for his course and uses this tool allowing him to improve his teaching in the Spring semester passing it onto other professors recommending it as a solution to become a better professor and to build a better university.
+After the Fall semester, Professor Joe Smith sits down on his computer and views the scarce official course evaluations submitted by students at the end of the semester to see what he can do better to help students understand the material. He sees that the generic questions and ratings provided by IIT do not really give him an understanding of the critical feedback that would help him become a better professor at IIT. Professor Smith views the course and professor database, HawkEyeReviews, and sees that the student reviews provide honest feedback for his course and uses this tool allowing him to improve his teaching in the Spring semester passing it onto other professors recommending it as a solution to become a better professor and to build a better university.
 
 ## Team Members
 Please create a table for the details below
@@ -85,16 +86,16 @@ Please create a table for the details below
 | --------  | ------------------- |
 | 1 - Problem Framing                                 | Nelida           |
 | 2 - Problem Framing                                 | Nelida             |
-| 3 - Problem Framing                                 | Team member #N+1|
-| 4 - Problem Framing                                 | Team member #N+1|
+| 3 - Problem Framing                                 | Shayan |
+| 4 - Problem Framing                                 | Shayan |
 | 5 - Think, build, test, and demo for midterm        | Ronan |
 | 6 - Think, build, test, and demo for midterm        | Ronan |
-| 7 - Think, build, test, and demo for midterm        | Team member #N+3|
+| 7 - Think, build, test, and demo for midterm        | Nicholas |
 | 8 - Think, build, test, and demo for midterm        | Fall Break |
-| 9 - Think, build, test, and demo for final          | Team member ...             |
-| 10 - Think, build, test, and demo for final	      |  Team member ...      |
-| 11 - Think, build, test, and demo for final         | Team member ...         |
+| 9 - Think, build, test, and demo for final          | Nicholas |
+| 10 - Think, build, test, and demo for final	      | Nelida  |
+| 11 - Think, build, test, and demo for final         | Nelida  |
 | 12 - Think, build, test, and demo for final         | Ronan |
 | 13 - Think, build, test, and demo for final         | Ronan |
-| 14 - Presentation dry run                           | Team member ...   |
-| 15 - Presentation                                   | Team member ... |
+| 14 - Presentation dry run                           | Sameer |
+| 15 - Presentation                                   | Sameer |
