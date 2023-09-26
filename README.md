@@ -1,4 +1,4 @@
-# ProfessorCourseDatabase
+# HawkEyeReviews
 
 ## Problem statement
 - IIT students are easily able to search for classes to find ratings and reviews about individual classes/professors so they can make more informed decisions when creating schedules.
