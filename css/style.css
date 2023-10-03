@@ -1,17 +1,17 @@
 body {
-    background-color: powderblue;
+    background-color: rgb(255, 255, 255);
 }
 
 .topnav {
     overflow: hidden;
     background-color: #333;
+    text-align: right;
 }
 
 .topnav a {
-    float: left;
+    float: right;
     display: block;
     color: #f2f2f2;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -24,4 +24,14 @@ body {
 .footer {
     background-color: #f1f1f1;
     padding: 10px;
+    display: flex;
+    justify-content: space-between; /* this will add equal space between each image */
+}
+
+.content {
+    text-align: center;
+}
+
+#logo {
+    text-align: center;
 }
