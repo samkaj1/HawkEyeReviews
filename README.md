@@ -1,4 +1,4 @@
-# ProfessorCourseDatabase
+# HawkEyeReviews
 
 ## Problem statement
 - IIT students are easily able to search for classes to find ratings and reviews about individual classes/professors so they can make more informed decisions when creating schedules.
@@ -44,7 +44,7 @@ The spring semester has recently ended, and Bob is about to graduate from IIT. H
 ### Scenario #2
 Billy Jr is an incoming freshman to IIT, he’s already ahead a good amount of credits which he’s really excited about! The only thing is, he feels a tad bit intimidated about being thrown into higher level courses at IIT since he has already fulfilled their prerequisites in high school. He’s curious about how difficult they might be, and what past students thought of the course. On top of worrying about course difficulty, he has no idea which professors to take specific classes with and which to avoid, since he’s new to the school.
 ### Scenario #3
-After the Fall semester, Professor Joe Smith sits down on his computer and views the scarce official course evaluations submitted by students at the end of the semester to see what he can do better to help students understand the material. He sees that the generic questions and ratings provided by IIT do not really give him an understanding of the critical feedback that would help him become a better professor at IIT. Professor Smith views the course and professor database, IITExposed, and sees that the student reviews provide honest feedback for his course and uses this tool allowing him to improve his teaching in the Spring semester passing it onto other professors recommending it as a solution to become a better professor and to build a better university.
+After the Fall semester, Professor Joe Smith sits down on his computer and views the scarce official course evaluations submitted by students at the end of the semester to see what he can do better to help students understand the material. He sees that the generic questions and ratings provided by IIT do not really give him an understanding of the critical feedback that would help him become a better professor at IIT. Professor Smith views the course and professor database, HawkEyeReviews, and sees that the student reviews provide honest feedback for his course and uses this tool allowing him to improve his teaching in the Spring semester passing it onto other professors recommending it as a solution to become a better professor and to build a better university.
 
 ## Team Members
 Please create a table for the details below
