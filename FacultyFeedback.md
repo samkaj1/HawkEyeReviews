@@ -25,6 +25,8 @@
   - From there we will random presentation order so you could first or last or anywhere in between
 
 ## Week 8 ##
+- You might to use a transparent background for your logo image
+- Introducing the next speaker for example, now Shayan will walk us through the scenarios
 
 ## Week 9 ##
 
