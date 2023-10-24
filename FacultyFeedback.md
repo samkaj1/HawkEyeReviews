@@ -29,6 +29,9 @@
 - Introducing the next speaker for example, now Shayan will walk us through the scenarios
 
 ## Week 9 ##
+- Look at capturing actionable feedback from the mid-term presentation as stories to make sure they are addressed in the final presentation
+- Final presentation - https://github.com/mschray/IPro497Sample/blob/main/Course%20Content/Final%20Presentation%20Template.pptx
+- GitHub flow - https://docs.github.com/en/get-started/quickstart/github-flow
 
 ## Week 10 ##
 
