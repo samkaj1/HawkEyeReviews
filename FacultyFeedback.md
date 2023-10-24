@@ -19,12 +19,14 @@
 ## Week 7 ##
 - No class on 10/9
 - Mid-term Presentation when we return on 10/16
-- Ronan sprint review lead
+- Nicholas sprint review lead
 - On 10/16
   - You'll have about 30 minutes at the start of class to get ready.
   - From there we will random presentation order so you could first or last or anywhere in between
 
 ## Week 8 ##
+- You might to use a transparent background for your logo image
+- Introducing the next speaker for example, now Shayan will walk us through the scenarios
 
 ## Week 9 ##
 
