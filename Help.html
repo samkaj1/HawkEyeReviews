@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help & Support</title>
+    <link rel="stylesheet" href="css/Help.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="centered">
+                <div class="logo">HawkEyeReviews</div>
+                <div class="logo-img">
+                    <img src="images/logo.png" alt="HawkEyeReviews Logo">
+                </div>
+                <ul class="nav-links">
+                    <li><a href="HawkEyeReviews.html">Home</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                    <li><a href="Login.html">Login</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="Help">
+        <h1 style="text-align: center">Help & Contact</h1>
+        <p class ="subheader">If you are facing issues, try the following:</p>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <div class="container">
+                        <h2 class = "FAQ">FAQ: Frequently Asked Questions</h2>
+                        <ul class = "questions">
+                            <li button type = "button" onclick="FAQAnswer1()">How do I find a review on a specific course? ↓</button></li>
+                            <p id="FAQans1"></p>
+                            <script> function FAQAnswer1() {document.getElementById("FAQans1").innerHTML = "Go to the home page, search for the course using the course number or name, and it should display all the course information!";}</script>
+                            <li button type = "button" onclick="FAQAnswer2()">How do I search by a Professor's Name? ↓</button></li>
+                            <p id="FAQans2"></p>
+                            <script> function FAQAnswer2() {document.getElementById("FAQans2").innerHTML = "Using the same box on the home page, you can also search by your professor's name to find courses he has taught. ";}</script>
+                            <li button type = "button" onclick="FAQAnswer3()">How do I add my own review? ↓</button></li>
+                            <p id="FAQans3"></p>
+                            <script> function FAQAnswer3() {document.getElementById("FAQans3").innerHTML = "First, enter the course you would like to add a review for in the box below. After this, click on Add Course and add your review!";}</script>
+                            <li button type = "button" onclick="FAQAnswer4()">Where do I find the authors of this website? ↓ </button></li>
+                            <p id="FAQans4"></p>
+                            <script> function FAQAnswer4() {document.getElementById("FAQans4").innerHTML = "Head to the home page and click on the About Us tab in the bottom left of our website!";}</script>
+                        </ul>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <div class="container">
+                    <h2 class = "Contact">Contact Us</h2>
+                        <form action="form_page.php">
+
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name = "firstname" placeholder="First name...">
+
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name = "lastname" placeholder="Last name...">
+
+                            <label for="year">Year</label>
+                            <select id="year" name="year">
+                                <option value="yr1">1st Year UG</option>
+                                <option value="yr2">2nd Year UG</option>
+                                <option value="yr3">3rd Year UG</option>
+                                <option value="yr4">4th Year UG</option>
+                                <option value="grad">Graduate</option>
+                            </select>
+
+                            <label for="inquiry">Your Message</label>
+                            <textarea id="inquiry" name="inquiry" placeholder="Write your message here..." style="height: 200px;"></textarea>
+                            <input type="submit" value="Submit">
+                        </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+</body>
+</html>
