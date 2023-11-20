@@ -5,29 +5,22 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/style.css" />
-    <script>
-      function loadData() {
-        var inputTest = sessionStorage.getItem("objectToPass");
-        var displayData = inputTest;
-        document.getElementById("courseName").innerHTML = displayData;
-      }
-    </script>
   </head>
 
-  <body onload="loadData()">
+  <body>
     <div class="topnav">
       <a class="active" href="HawkEyeReviews.html"><u>Home</u></a>
       <a class="active" href="Login.html"><u>Login</u></a>
     </div>
 
     <div class="content">
-      <h2><span id="courseName"></span></h2>
-      <p>Professor Name</p>
-    </div>
-
-    <div class="details">
-      <p>Reviews</p>
-      <a class="button" href="Review.html"><u>Leave a review</u></a>
+      <p>Leave a Review</p>
+      <input
+        id="course input"
+        placeholder="Enter Course Name"
+        class="textbox"
+        name="textboxInput"
+      />
     </div>
 
     <div class="footer">
