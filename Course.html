@@ -10,6 +10,25 @@
         var inputTest = sessionStorage.getItem("objectToPass");
         var displayData = inputTest;
         document.getElementById("courseName").innerHTML = displayData;
+        var reviewInfo = "";
+        var profName = "";
+        if (displayData == "CS 450") {
+          profName = "Michael Lee";
+          reviewInfo =
+            "Great course and professor, however the exams tend to be on the side of unfairness. 4/5";
+        }
+        if (displayData == "CS 425") {
+          profName = "Yousef Elmehdwi";
+          reviewInfo =
+            "Slides and lectures were very informative. Professor is very knowledgeable about the subject.";
+        }
+        if (displayData == "CS 351") {
+          profName = "Michael Lee";
+          reviewInfo =
+            "Systems is a very important class for CS majors. Make sure not to slack off or you will run out of time to complete the bi weekly machine problems.";
+        }
+        document.getElementById("profName").innerHTML = profName;
+        document.getElementById("reviewInfo").innerHTML = reviewInfo;
       }
     </script>
   </head>
@@ -22,11 +41,12 @@
 
     <div class="content">
       <h2><span id="courseName"></span></h2>
-      <p>Professor Name</p>
+      <p><span id="profName"></span></p>
     </div>
 
     <div class="details">
       <p>Reviews</p>
+      <p><span id="reviewInfo"></span></p>
       <a class="button" href="Review.html"><u>Leave a review</u></a>
     </div>
 
