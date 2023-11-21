@@ -10,25 +10,30 @@
         var inputTest = sessionStorage.getItem("objectToPass");
         var displayData = inputTest;
         document.getElementById("courseName").innerHTML = displayData;
-        var reviewInfo = "";
+        var reviewInfo1 = "";
+        var reviewInfo2 = "";
         var profName = "";
         if (displayData == "CS 450") {
           profName = "Michael Lee";
-          reviewInfo =
+          reviewInfo1 =
             "Great course and professor, however the exams tend to be on the side of unfairness. 4/5";
+          reviewInfo2 = "Enjoayble lectures.";
         }
         if (displayData == "CS 425") {
           profName = "Yousef Elmehdwi";
-          reviewInfo =
+          reviewInfo1 =
             "Slides and lectures were very informative. Professor is very knowledgeable about the subject.";
+          reviewInfo2 = "Enjoayble lectures.";
         }
         if (displayData == "CS 351") {
           profName = "Michael Lee";
-          reviewInfo =
+          reviewInfo1 =
             "Systems is a very important class for CS majors. Make sure not to slack off or you will run out of time to complete the bi weekly machine problems.";
+          reviewInfo2 = "Enjoayble lectures.";
         }
         document.getElementById("profName").innerHTML = profName;
-        document.getElementById("reviewInfo").innerHTML = reviewInfo;
+        document.getElementById("reviewInfo1").innerHTML = reviewInfo1;
+        document.getElementById("reviewInfo2").innerHTML = reviewInfo2;
       }
     </script>
   </head>
@@ -46,7 +51,10 @@
 
     <div class="details">
       <p>Reviews</p>
-      <p><span id="reviewInfo"></span></p>
+      <ol>
+        <li><span id="reviewInfo1"></span></li>
+        <li><span id="reviewInfo2"></span></li>
+      </ol>
       <a class="button" href="Review.html"><u>Leave a review</u></a>
     </div>
 
