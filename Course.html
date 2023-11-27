@@ -5,16 +5,31 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/style.css" />
+    <style>
+      /* Updated CSS with square-shaped rating boxes */
+      .review-box {
+        font-weight: bold;
+      }
+      .rating-box {
+        color: #ffcc00;
+        display: inline-block;
+        width: 40px; /* Adjust the width as needed for accommodating half-star */
+        height: 30px; /* Set the same height as width for square shape */
+        text-align: center;
+        line-height: 30px; /* Center the content vertically */
+        border: 1px solid #ffcc00; /* Optional: Add border for a box outline */
+      }
+    </style>
     <script>
-      function loadData() {
-        var inputTest = sessionStorage.getItem("objectToPass");
-        var displayData = inputTest;
-        document.getElementById("courseName").innerHTML = displayData;
-        var reviewInfo1 = "";
-        var reviewInfo2 = "";
-        var rating1 = "";
-        var rating2 = "";
-        var profName = "";
+    function loadData() {
+      var inputTest = sessionStorage.getItem("objectToPass");
+      var displayData = inputTest;
+      document.getElementById("courseName").innerHTML = displayData;
+      var reviewInfo1 = "";
+      var reviewInfo2 = "";
+      var rating1 = "";
+      var rating2 = "";
+      var profName = "";
         if (displayData == "CS 100") {
           profName = "Michael Lee";
           reviewInfo1 =
@@ -62,45 +77,64 @@
         document.getElementById("profName").innerHTML = profName;
         document.getElementById("reviewInfo1").innerHTML = reviewInfo1;
         document.getElementById("reviewInfo2").innerHTML = reviewInfo2;
-        document.getElementById("rating1").innerHTML = rating1;
-        document.getElementById("rating2").innerHTML = rating2;
+        document.getElementById("ratingBox1").innerHTML = rating1;
+        document.getElementById("ratingBox2").innerHTML = rating2;
       }
+    // Function to generate star ratings based on the given rating value
+    function getStarRating(rating) {
+      var filledStars = parseInt(rating);
+      var emptyStars = 5 - filledStars;
+      var starsHTML = '<span class="star-rating">';
+      for (var i = 0; i < filledStars; i++) {
+        starsHTML += '<span>&#9733;</span>'; // Filled star
+      }
+      for (var j = 0; j < emptyStars; j++) {
+        starsHTML += '<span>&#9734;</span>'; // Empty star
+      }
+      starsHTML += '</span>';
+      return starsHTML;
+    }
     </script>
   </head>
 
   <body onload="loadData()">
+    <!-- Your existing HTML structure -->
     <div class="topnav">
-      <a class="active" href="HawkEyeReviews.html"><u>Home</u></a>
-      <a class="active" href="Login.html"><u>Login</u></a>
-    </div>
+    <a class="active" href="HawkEyeReviews.html"><u>Home</u></a>
+    <a class="active" href="Login.html"><u>Login</u></a>
+  </div>
 
-    <div class="content">
-      <h2><span id="courseName"></span></h2>
-      <p><span id="profName"></span></p>
-    </div>
+  <div class="content">
+    <h2><span id="courseName"></span></h2>
+    <p><span id="profName"></span></p>
+  </div>
 
-    <div class="details">
-      <p>Reviews</p>
-      <ul>
-        <li>
-          <span id="reviewInfo1"></span
-          ><span class="rating" id="rating1"></span>
-        </li>
-        <li>
-          <span id="reviewInfo2"></span
-          ><span class="rating" id="rating2"></span>
-        </li>
-      </ul>
-      <a class="button" href="Review.html"><u>Leave a review</u></a>
-    </div>
+  <div class="details">
+    <p>Reviews</p>
+    <ul>
+      <li>
+        <div class="review-box">
+          <span class="rating-box" id="ratingBox1"></span>
+          <span id="reviewInfo1"></span>
+        </div>
+      </li>
+      <li>
+        <div class="review-box">
+          <span class="rating-box" id="ratingBox2"></span>
+          <span id="reviewInfo2"></span>
+        </div>
+      </li>
+    </ul>
+    <a class="button" href="Review.html"><u>Leave a review</u></a>
+  </div>
 
-    <div class="footer">
-      <div class="footer_item">
-        <a class="active" href="AboutUs.html"><u>About Us</u></a>
-      </div>
-      <div class="footer_item">
-        <a class="active" href="Help.html"><u>Help</u></a>
-      </div>
+  <div class="footer">
+    <div class="footer_item">
+      <a class="active" href="AboutUs.html"><u>About Us</u></a>
     </div>
+    <div class="footer_item">
+      <a class="active" href="Help.html"><u>Help</u></a>
+    </div>
+  </div>
   </body>
-</html>
+  </html>
