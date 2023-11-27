@@ -41,13 +41,31 @@
         </datalist>
       </form>
       <script>
-        var form = document.getElementById("form input");
-        form.addEventListener("submit", function () {
-          var inputTest = document.getElementById("course input").value;
-          sessionStorage.setItem("objectToPass", inputTest);
-          window.location = "Course.html";
+        window.onload = function () {
+          var courseInput = document.getElementById("course input");
+          var storedValue = sessionStorage.getItem("objectToPass");
+      
+          if (storedValue) {
+            courseInput.value = storedValue;
+          }
+      
+          var form = document.getElementById("form input");
+          form.addEventListener("submit", function () {
+            var inputTest = courseInput.value;
+            sessionStorage.setItem("objectToPass", inputTest);
+            window.location = "Course.html";
+          });
+        };
+        
+        window.addEventListener("pageshow", function (event) {
+          var historyTraversal = event.persisted || (typeof window.performance != "undefined" && window.performance.navigation.type === 2);
+          if (historyTraversal) {
+            sessionStorage.removeItem("objectToPass");
+            document.getElementById("course input").value = "";
+          }
         });
       </script>
+      
     </div>
     <div class="footer">
       <div class="footer_item">
