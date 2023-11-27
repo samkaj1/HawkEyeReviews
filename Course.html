@@ -27,8 +27,14 @@
       document.getElementById("courseName").innerHTML = displayData;
       var reviewInfo1 = "";
       var reviewInfo2 = "";
+      var reviewInfo3 = "";
+      var reviewInfo4 = "";
+      var reviewInfo5 = "";
       var rating1 = "";
       var rating2 = "";
+      var rating3 = "";
+      var rating4 = "";
+      var rating5 = "";
       var profName = "";
         if (displayData == "CS 100") {
           profName = "Michael Lee";
@@ -38,6 +44,15 @@
           reviewInfo2 =
             "I enjoyed the course but felt like a lot of the work we did in it was busy work, I would've wanted to learn more useful skills such as in programming.";
           rating2 = "3/5";
+          reviewInfo3 =
+            "I thought the course was a bit too easy, but I guess it's good for people who have never programmed before.";
+          rating3 = "4/5";
+          reviewInfo4 =
+            "I liked the course, but I felt like the professor was a bit too strict on grading.";
+          rating4 = "2/5";
+          reviewInfo5 =
+            "This course was fun but I didn't like the professor's teaching style.";
+          rating5 = "3/5";
         }
         if (displayData == "CS 201") {
           profName = "Matthew Bauer";
@@ -47,6 +62,15 @@
             "Good lectures in the course, topics in Java are a bit difficult, a bit strict but he means well.";
           rating1 = "4.5/5";
           rating2 = "3/5";
+          reviewInfo3 =
+            "I thought the course was a bit too easy, but I guess it's good for people who have less experience in programming.";
+          rating3 = "4/5";
+          reviewInfo4 =
+            "I liked the course, but I felt like the professor was a bit too strict on grading.";
+          rating4 = "2/5";
+          reviewInfo5 =
+            "This course was fun but I didn't like the professor's teaching style.";
+          rating5 = "3/5";
         }
 
         if (displayData == "CS 450") {
@@ -57,28 +81,155 @@
             "Very tough projects in this course, one of the hardest CS courses I've taken at IIT. No curve was granted for the midterm and final exam either :(";
           rating1 = "4/5";
           rating2 = "3/5";
+          reviewInfo3 =
+            "This course is very difficult but very rewarding, I learned a lot from it.";
+          rating3 = "4/5";
+          reviewInfo4 =
+            "I liked the course, but I felt like the professor was a bit too strict on grading.";
+          rating4 = "3.5/5";
+          reviewInfo5 =
+            "This course was really hard, the projects and exam are tough. One of the hardest CS courses required";
+          rating5 = "3/5";
         }
-        if (displayData == "CS 425") {
+        if (displayData == "CS 458") {
           profName = "Yousef Elmehdwi";
           reviewInfo1 =
             "Slides and lectures were very informative. Professor is very knowledgeable about the subject.";
-          reviewInfo2 = "Enjoyayble lectures.";
+          reviewInfo2 = "Enjoyayble lectures, you can tell the professor really cares how much of the content you're learning.";
           rating1 = "4/5";
           rating2 = "4/5";
+          reviewInfo3 =
+            "This course isn't difficult and it's rewarding, I learned a lot from it and the professor is super chill.";
+          rating3 = "4/5";
+          reviewInfo4 =
+            "I liked the course, Yousef is a great professor and I learned a lot from him.";
+          rating4 = "4/5";
+          reviewInfo5 =
+            "This course was really easy, the projects and exam are easy. One of the easiest CS courses you could take for an elective";
+          rating5 = "5/5";
         }
         if (displayData == "CS 351") {
           profName = "Michael Lee";
           reviewInfo1 =
             "Systems is a very important class for CS majors. Make sure not to slack off or you will run out of time to complete the bi weekly machine problems.";
-          reviewInfo2 = "Enjoyable lectures.";
+          reviewInfo2 = "Enjoyable lectures, but very hard topics, make sure you try and do the projects early and go to office hours.";
           rating1 = "3.5/5";
           rating2 = "4/5";
+
+          reviewInfo3 = 
+            "One of the most difficult CS courses that are required, be ready to put in a lot of work, and start the projects early.";
+          rating3 = "3/5";
+          reviewInfo4 =
+            "It's cool topics taught in this course but it's extremely difficult, the malloc project is very hard.";
+          rating4 = "3/5";
+          reviewInfo5 =
+            "This course was really hard, the projects and exam are tough. One of the hardest CS courses required";
+          rating5 = "3/5";
         }
+        if (displayData == "CS 350") {
+          profName = "Farshad Ghanei";
+          reviewInfo1 =
+            "Great depth in the material covered, albeit slightly challenging. Professor Ghanei is extremely knowledgeable.";
+          rating1 = "4/5";
+          reviewInfo2 =
+            "Difficult assignments, but worth it for the amount learned. Very clear explanations in lectures.";
+          rating2 = "4/5";
+          reviewInfo3 =
+            "The course was rigorous, but Professor Ghanei's expertise enriched the learning experience.";
+          rating3 = "4/5";
+          reviewInfo4 =
+            "Challenging subject matter, yet Professor Ghanei's guidance made it comprehensible.";
+          rating4 = "4/5";
+          reviewInfo5 =
+            "The course demanded effort, but Professor Ghanei's teaching style motivated us to excel.";
+          rating5 = "4/5";
+        }
+        if (displayData == "COM 380"){
+          profName = "Xiaoqian Li";
+          reviewInfo1 = "The course content was interesting, but the assignments were challenging.";
+          rating1 = "4/5";
+          reviewInfo2 = "Professor Li's teaching style made complex topics easy to understand. Enjoyable class!";
+          rating2 = "4.5/5";
+          reviewInfo3 = "The course was straightforward, and Professor Li's guidance made it accessible.";
+          rating3 = "4/5";
+          reviewInfo4 = "Professor Li's explanations made the subject matter seem simpler than expected.";
+          rating4 = "4.5/5";
+          reviewInfo5 = "The course workload was manageable, and Professor Li was an excellent mentor.";
+          rating5 = "4/5";
+        }
+
+
+      if (displayData == "IPRO 497") {
+        profName = "Martin Schray";
+        reviewInfo1 =
+          "Interesting subject matter, but the work is mostly student lead in the project groups. Nonetheless, professor Schray is available for help outside of class.";
+        rating1 = "3.5/5";
+        reviewInfo2 =
+          "Projects in this class were engaging, although instructions could have been clearer. Office hours were very helpful.";
+        rating2 = "4.5/5";
+        reviewInfo3 = 
+        "The course content was enjoyable, and Professor Schray provided valuable guidance during project discussions.",
+        rating3 = "5/5"
+        reviewInfo4 = 
+        "Professor Schray's teaching style encourages critical thinking and collaborative problem-solving, making the subject more approachable.",
+        rating4 = "4.5/5"
+        reviewInfo5 = "The course structure allows for hands-on experience, and Professor Schray's insights were instrumental in project success.",
+        rating5 = "5/5"
+      }
+      if (displayData == "CS 430") {
+          profName = "Matthew Bauer";
+          reviewInfo1 = "Tough but rewarding course. Bauer's explanations made the material clearer.";
+          rating1 = "4/5";
+          reviewInfo2 = "Challenging subject matter, but Bauer's teaching style makes it accessible.";
+          rating2 = "4/5";
+          reviewInfo3 = "In-depth discussions in class provided a deeper understanding of the subject.";
+          rating3 = "4.5/5";
+          reviewInfo4 = "Professor Bauer's office hours were helpful in resolving doubts and clarifying concepts.";
+          rating4 = "4.5/5";
+          reviewInfo5 = "Interactive course sessions enhanced learning and engagement.";
+          rating5 = "4/5";
+        }
+        if (displayData == "CS 480") {
+          profName = "Jacek Dzikowski";
+          reviewInfo1 = "In-depth coverage of AI concepts, sometimes lectures felt rushed.";
+          rating1 = "3.5/5";
+          reviewInfo2 = "Assignments are challenging, but they reinforce understanding. Professor Dzikowski is approachable for help.";
+          rating2 = "4/5";
+          reviewInfo3 = "Dzikowski's lectures provide valuable insights into complex AI topics.";
+          rating3 = "4/5";
+          reviewInfo4 = "The course structure fosters a deeper understanding of AI principles.";
+          rating4 = "4/5";
+          reviewInfo5 = "Professor Dzikowski's guidance greatly enhanced project development and understanding.";
+          rating5 = "4.5/5";
+        }
+        if (displayData == "CS 425"){
+          profName = "Boris Glavic";
+          reviewInfo1 = "The course content was interesting, but the assignments were challenging.";
+          rating1 = "4/5";
+          reviewInfo2 = "Professor Glavic provided insightful discussions, but some concepts were complex to grasp.";
+          rating2 = "3.5/5";
+          reviewInfo3 = "Challenging course, yet Professor Glavic's explanations helped clarify difficult topics.";
+          rating3 = "4/5";
+          reviewInfo4 = "The course projects were stimulating, but more guidance would have been beneficial.";
+          rating4 = "3.5/5";
+          reviewInfo5 = "Professor Glavic's lectures were engaging and relevant to real-world applications.";
+          rating5 = "4/5";
+        }
+
+
         document.getElementById("profName").innerHTML = profName;
         document.getElementById("reviewInfo1").innerHTML = reviewInfo1;
         document.getElementById("reviewInfo2").innerHTML = reviewInfo2;
+        document.getElementById("reviewInfo3").innerHTML = reviewInfo3;
+        document.getElementById("reviewInfo4").innerHTML = reviewInfo4;
+        document.getElementById("reviewInfo5").innerHTML = reviewInfo5;
         document.getElementById("ratingBox1").innerHTML = rating1;
         document.getElementById("ratingBox2").innerHTML = rating2;
+        document.getElementById("ratingBox3").innerHTML = rating3;
+        document.getElementById("ratingBox4").innerHTML = rating4;
+        document.getElementById("ratingBox5").innerHTML = rating5;
+        
+        
       }
     // Function to generate star ratings based on the given rating value
     function getStarRating(rating) {
@@ -122,6 +273,24 @@
         <div class="review-box">
           <span class="rating-box" id="ratingBox2"></span>
           <span id="reviewInfo2"></span>
+        </div>
+      </li>
+      <li>
+        <div class="review-box">
+          <span class="rating-box" id="ratingBox3"></span>
+          <span id="reviewInfo3"></span>
+        </div>
+      </li>
+      <li>
+        <div class="review-box">
+          <span class="rating-box" id="ratingBox4"></span>
+          <span id="reviewInfo4"></span>
+        </div>
+      </li>
+      <li>
+        <div class="review-box">
+          <span class="rating-box" id="ratingBox5"></span>
+          <span id="reviewInfo5"></span>
         </div>
       </li>
     </ul>
