@@ -64,6 +64,21 @@ body {
   font-size: 25px;
 }
 
+.rating {
+  display: inline;  
+  background-color: #1a1919; 
+  color: white; 
+  padding: 10px; 
+}
+
+li {
+  padding: 17px;
+}
+
+ul {
+  list-style: none;
+}
+
 .details {
   text-align: center;
   color: #f2f2f2;
