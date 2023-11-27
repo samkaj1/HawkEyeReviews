@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>HawkEyeReviews</title>
+    <title>HawkEyeReviews - Sign Up</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/Login.css">
@@ -30,17 +30,15 @@
     <div class="form">
       <div class="login">
         <div class="login-header">
-          <h3>LOGIN</h3>
-          <p> Enter your account info to login.</p>
+          <h3>SIGN UP</h3>
+          <p>Create a new account.</p>
         </div>
-        
       </div>
-      <form class="login-form" method="POST" action="/login">
+      <form class="login-form" method="POST" action="/signup"> <!-- Change the action to your signup route -->
+        <input type="text" placeholder="name" name="name"/> <!-- Add necessary fields for signup -->
         <input type="text" placeholder="email" name="email"/>
         <input type="password" placeholder="password" name="password"/>
-        <button type="submit">login</button>
-        <a href="Signup.html">Don't have an account? Sign up</a>
-        
+        <button type="submit">Sign Up</button>
       </form>
     </div>
   </div>
