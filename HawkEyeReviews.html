@@ -20,7 +20,7 @@
     <div class="content">
       <form id="form input" action="Course.html">
         <input
-          id="courseInput"
+          id="course input"
           list="courses"
           placeholder="Enter Course Name"
           class="textbox"
@@ -42,29 +42,30 @@
       </form>
       <script>
         window.onload = function () {
-          var courseInput = document.getElementById("courseInput");
+          var courseInput = document.getElementById("course input");
+          var storedValue = sessionStorage.getItem("objectToPass");
+      
+          if (storedValue) {
+            courseInput.value = storedValue;
+          }
+      
           var form = document.getElementById("form input");
-          
-          courseInput.addEventListener("input", function () {
+          form.addEventListener("submit", function () {
             var inputTest = courseInput.value;
             sessionStorage.setItem("objectToPass", inputTest);
             window.location = "Course.html";
           });
-          
-          var storedValue = sessionStorage.getItem("objectToPass");
-          if (storedValue) {
-            courseInput.value = storedValue;
-          }
         };
         
         window.addEventListener("pageshow", function (event) {
           var historyTraversal = event.persisted || (typeof window.performance != "undefined" && window.performance.navigation.type === 2);
           if (historyTraversal) {
             sessionStorage.removeItem("objectToPass");
-            document.getElementById("courseInput").value = "";
+            document.getElementById("course input").value = "";
           }
         });
       </script>
+      
     </div>
     <div class="footer">
       <div class="footer_item">
